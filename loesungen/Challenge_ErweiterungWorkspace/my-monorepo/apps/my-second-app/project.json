@@ -1,25 +1,25 @@
 {
-  "name": "my-monorepo",
+  "name": "my-second-app",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "my-monorepo",
-  "sourceRoot": "apps/my-monorepo/src",
-  "tags": ["scope:client"],
+  "sourceRoot": "apps/my-second-app/src",
+  "tags": ["scope:client-two"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/my-monorepo",
-        "index": "apps/my-monorepo/src/index.html",
-        "main": "apps/my-monorepo/src/main.ts",
+        "outputPath": "dist/apps/my-second-app",
+        "index": "apps/my-second-app/src/index.html",
+        "main": "apps/my-second-app/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/my-monorepo/tsconfig.app.json",
+        "tsConfig": "apps/my-second-app/tsconfig.app.json",
         "assets": [
-          "apps/my-monorepo/src/favicon.ico",
-          "apps/my-monorepo/src/assets"
+          "apps/my-second-app/src/favicon.ico",
+          "apps/my-second-app/src/assets"
         ],
-        "styles": ["apps/my-monorepo/src/styles.scss"],
+        "styles": ["apps/my-second-app/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -53,10 +53,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "browserTarget": "my-monorepo:build:production"
+          "browserTarget": "my-second-app:build:production"
         },
         "development": {
-          "browserTarget": "my-monorepo:build:development"
+          "browserTarget": "my-second-app:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -64,7 +64,7 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "browserTarget": "my-monorepo:build"
+        "browserTarget": "my-second-app:build"
       }
     },
     "lint": {
@@ -72,8 +72,8 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "apps/my-monorepo/**/*.ts",
-          "apps/my-monorepo/**/*.html"
+          "apps/my-second-app/**/*.ts",
+          "apps/my-second-app/**/*.html"
         ]
       }
     },
@@ -81,7 +81,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/my-monorepo/jest.config.ts",
+        "jestConfig": "apps/my-second-app/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {
@@ -94,7 +94,7 @@
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "my-monorepo:build"
+        "buildTarget": "my-second-app:build"
       }
     }
   }
