@@ -1,9 +1,15 @@
 {
-  "extensions": [
-    "GitHub.github-vscode-theme"
+  "extensions": [    
+    "GitHub.github-vscode-theme",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ritwickdey.LiveServer",
+    "stylelint.vscode-stylelint"
     // Additional Extensions Here
   ],
-  "onCreateCommand": "sudo cp ${containerWorkspaceFolder}/.devcontainer/welcome-text.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt && echo PS1='\"$ \"' >> ~/.bashrc"
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
+  "postAttachCommand": "git pull --all"
+  
   // Update welcome text and set terminal prompt to '$ '
 }
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
