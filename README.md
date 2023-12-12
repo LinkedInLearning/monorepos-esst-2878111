@@ -1,14 +1,14 @@
-# Einführung in Monorepos mit Nx
+# Monorepos auf Github – Grundlagen
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `# Einführung in Monorepos mit Nx`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Monorepos auf Github – Grundlagen`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
 ![COURSENAME][lil-thumbnail-url]
 
-[Marketing Paragraph for Codespaces]
+Als Entwickler:in oder Systemadministrator:in suchen Sie immer nach einfachen und kollaborativen Möglichkeiten, eine große Codebasis für Ihr Unternehmen zu verwalten. In diesem Kurs zeigt Ihnen die erfahrene Webentwicklerin Martina Kraus, wie Sie mittels Monorepos auf Github dieses Problem lösen können: Entdecken Sie, wie Monorepos Ihnen dabei helfen kann, die Komplexität zu reduzieren, Codeabhängigkeiten zu vermeiden und die funktionsübergreifende Zusammenarbeit zu verbessern.
 
-Dieser Kurs ist in GitHub Codespaces integriert, eine sofort verfügbare Cloud-Entwicklungsumgebung, die alle Funktionen Ihrer bevorzugten IDE bietet, ohne dass Sie einen lokalen Rechner einrichten müssen. Mit Codespaces können Sie von jedem Rechner aus und zu jeder Zeit praktische Übungen durchführen - und dabei ein Tool verwenden, das Ihnen häufig in der Praxis begegnen wird. Sehen Sie sich das Video "Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie Sie anfangen können.
 
-[COURSEDESCRIPTION]
+Dieser Kurs ist in GitHub Codespaces integriert, eine Cloud-Entwicklerumgebung, die alle Funktionen Ihrer bevorzugten IDE bietet, ohne dass eine lokale Maschineneinrichtung erforderlich ist. Mit GitHub Codespaces können Sie jederzeit und von jedem Computer aus praktische Übungen absolvieren, und zum Beispiel auch die Challenge/Solution-Einheiten in diesem Kurs erfolgreich bestreiten.
+
 
 ## Anleitung
 
@@ -21,14 +21,14 @@ Dieses Repository hat zwei Ordner für die Übungsdateien. Im Ordner `src´ find
 3. Schließen und öffnen Sie den Codespace, damit die Extension richtig geladen wird.
 4. Danach können Sie mit den Übungsaufgaben beginnen.
 
-### Autor
+### Autorin
 
 **Martina Kraus**
 
 _Senior Software Engineer | Google Developer Expert Angular_
 
-Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
+Sehen Sie sich andere Kurse der Autorin auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
 
 [0]: # "Replace these placeholder URLs with actual course URLs"
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+[lil-course-url]: https://www.linkedin.com/learning/monorepos-auf-github-grundlagen
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQFuUlpTzbqusg/learning-public-crop_675_1200/0/1701697007148?e=2147483647&v=beta&t=X4vk7ckQUtOrDfysOFiQ7HrD2EQ9ur1MRCMDonNQF5k
